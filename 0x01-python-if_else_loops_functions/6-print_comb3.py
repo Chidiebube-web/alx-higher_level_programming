@@ -4,4 +4,4 @@ for int in range(0, 9):
         if int == 8:
             print("{}{}".format(int, rem))
         else:
-            print("{}{}".format(int, rem))
+            print("{}{}".format(int, rem), end=', ')
