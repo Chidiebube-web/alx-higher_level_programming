@@ -7,3 +7,5 @@ def fizzbuzz():
             print("Buzz", end=' ')
         if i % 3 == 0 and 1 % 5 == 0:
             print("FizzBuzz", end=' ')
+        else:
+            print(i, end=' ')
