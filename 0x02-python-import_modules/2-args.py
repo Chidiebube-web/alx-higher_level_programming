@@ -1,0 +1,12 @@
+#!/usr/bin/py
+if __name__ = "__main__":
+    import sys
+    num = len(sys.argv)
+    if num == 0:
+        print("{} arguments.".format(num))
+    elif num == 1:
+        print("{} arguments.".format(num))
+    else:
+        print("{} arguments.".format(num))
+for i in range(1, num):
+    print("{:d}: {}".format(i, sys.argv[i]))
