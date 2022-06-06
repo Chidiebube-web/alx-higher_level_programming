@@ -4,4 +4,4 @@ def element_at(mY_list, idx):
         if idx < 0 or idx > range(my_list):
             return None
         else:
-            idx = my_list[i]
+             my_list[i] = my_list[idx]
