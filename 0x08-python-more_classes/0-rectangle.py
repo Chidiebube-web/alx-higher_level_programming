@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+"""This contains an empty
+Rectangular class"""
+
 class Rectangle:
-    def __init__(self, width, length):
-        self.width = width
-        self.length = length
+    #an empty class
+    pass
