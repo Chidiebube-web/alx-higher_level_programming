@@ -3,5 +3,5 @@
 Rectangular class"""
 
 class Rectangle:
-    #an empty class
+    """an empty class"""
     pass
