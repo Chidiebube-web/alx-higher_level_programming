@@ -5,6 +5,7 @@ an input height and width
 """
 class Rectangle:
     def __init__(self, width=0, height=0):
+        """Initializes a Rectangle class instance"""
         self.__width = width
         self.__height = height
     def width(self):
@@ -19,7 +20,7 @@ class Rectangle:
             raise ValueError("width must be >= 0")
         else:
             """Sets the width value"""
-            self.width = value
+            self.__width = value
     def height(self):
         """Returns the value of the height"""
         return self.__height
@@ -32,4 +33,4 @@ class Rectangle:
             raise ValueError("height must be >= 0")
         else:
             """sets the height value"""
-            self.height = value
+            self.__height = value
