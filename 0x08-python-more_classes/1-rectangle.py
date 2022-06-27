@@ -4,6 +4,8 @@ Defines a rectangle with
 an input height and width
 """
 class Rectangle:
+    """Rectangle class defined by width and height"""
+
     def __init__(self, width=0, height=0):
         """Initializes a Rectangle class instance"""
         self.width = width
