@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Module 0-rectangle
-Defined an empty rectangular 
+Defined an empty Rectangule 
 class
 """
 
