@@ -6,11 +6,15 @@ an input height and width
 class Rectangle:
     def __init__(self, width=0, height=0):
         """Initializes a Rectangle class instance"""
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
+
+    @property
     def width(self):
         """Returns the value of the width"""
         return self.__width
+
+    @width.setter
     def width(self, value):
         if type(value) != int:
             """Returns a typeerror if NaN"""
@@ -21,9 +25,13 @@ class Rectangle:
         else:
             """Sets the width value"""
             self.__width = value
+
+    @property
     def height(self):
         """Returns the value of the height"""
         return self.__height
+
+    @height.setter
     def height(self, value):
         if type(value) != int:
             """returns a typeerror if value is NaN"""
