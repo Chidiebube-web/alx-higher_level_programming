@@ -1,10 +1,13 @@
 #!/usr/bin/python3
-"""3-rectangle Module
+"""6-rectangle Module
 Defines a rectangle with
 an input height and width
 """
 class Rectangle:
     """Rectangle class defined by width and height"""
+
+    """Number of Rectangle instances"""
+    number_of_inst = 0;
 
     def __init__(self, width=0, height=0):
         """Initializes a Rectangle class instance"""
@@ -63,3 +66,14 @@ class Rectangle:
             return ''
         """Returns a string representation of a rectangle"""
         return '\n'.join('#' * self.__width for _ in range(self.__height))
+
+    def __repr__(self):
+        """Returns a string representation of a Rectangle instance
+        that is able to recreate a new instance
+        """
+        return "Rectangle({}, {})".format(self.__width, self.__height)
+
+    def __del__(self):
+        """Deletes a Rectangle instance"""
+        print("Bye rectangle...")
+        Rectangle.number_of_inst += 1

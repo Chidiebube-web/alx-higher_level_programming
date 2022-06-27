@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""1-rectangle Module
+"""4-rectangle Module
 Defines a rectangle with
 an input height and width
 """
