@@ -46,8 +46,7 @@ class Rectangle:
         else:
             """sets the height value"""
             self.__height = value
-
-
+    
     def area(self):
         """returns the area of the rectangle"""
         return self.__height * self.__width
