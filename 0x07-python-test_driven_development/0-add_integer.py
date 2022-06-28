@@ -3,6 +3,8 @@
 
 adds two integers
 """
+
+
 def add_integer(a, b=98):
     """Raises a typeerror if values aren't
     ints or floats
