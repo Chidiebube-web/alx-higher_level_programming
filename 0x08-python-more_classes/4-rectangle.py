@@ -3,6 +3,8 @@
 Defines a rectangle with
 an input height and width
 """
+
+
 class Rectangle:
     """Rectangle class defined by width and height"""
 
