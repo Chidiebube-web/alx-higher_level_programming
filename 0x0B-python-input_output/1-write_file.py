@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """ Module that contains a function that returns the number of lines
     of a text file
 """
