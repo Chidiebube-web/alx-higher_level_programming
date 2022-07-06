@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module 0-read_file
-Reads a text file"""
+Reads a text file
+"""
 
 
 def read_file(filename=''):
