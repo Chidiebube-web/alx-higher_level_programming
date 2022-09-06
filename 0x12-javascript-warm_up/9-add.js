@@ -5,4 +5,4 @@ const b = process.argv[3];
 function add(a, b) {
   return a + b;
 }
-ocnsole.log(add(a, b));
+console.log(add(a, b));
