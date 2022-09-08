@@ -5,10 +5,12 @@ class Rectangle {
       this.height = h;
       this.width = w;
     }
-    
-    print () {
-      console.log(('X'.repeat(this.height) + '\n').repeat(this.height - 1) + 'X'.repeat(this.width));
-    }
   }
+    
+   print () {
+      for (let i = 0; i<this.height; i++) {
+        console.log('X'.repeat(this.width));
+      }
+    }
 }
 module.exports = Rectangle;
